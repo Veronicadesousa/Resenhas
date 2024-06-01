@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Estante Virtual</title>
+  <link rel="stylesheet" href="stylesest.css">
+</head>
+<body>
+  <div class="overlay">
+    <h1>Estante Virtual</h1>
+    <img src="./Imagens/est.gif" alt="est" class="est">
+    <div id="menu">
+      <button onclick="filterBooks('all')">Todos</button>
+      <button onclick="filterBooks('drama')">Drama</button>
+      <button onclick="filterBooks('romance')">Romance</button>
+      <button onclick="filterBooks('suspense')">Suspense</button>
+    </div>
+    <div id="livros">
+      <a href="http://127.0.0.1:5500/Vantagens.html" class="livro" data-category="drama">
+        <img src="./Imagens/avsi.JPG" alt="Livro 1 (Drama)">
+      </a>
+      <a href="http://127.0.0.1:5500/psicose.html" class="livro" data-category="suspense">
+        <img src="./Imagens/psicose.JPG" alt="Livro 2 (Suspense)">
+      </a>
+      <a href="http://127.0.0.1:5500/tudoerio.html" class="livro" data-category="drama">
+        <img src="./Imagens/tderio.JPG" alt="Livro 3 (Drama)">
+      </a>
+      <a href="http://127.0.0.1:5500/AcabarComTudo.html" class="livro" data-category="suspense">
+        <img src="./Imagens/estoupe.JPG" alt="Livro 4 (suspense)">
+      </a>
+      <a href="http://127.0.0.1:5500/cleopatra.html" class="livro" data-category="romance">
+        <img src="./Imagens/Cleopatra.JPG" alt="Livro 5 (romance)">
+      </a>
+      <a href="http://127.0.0.1:5500/Cemiterio.html" class="livro" data-category="suspense">
+        <img src="./Imagens/Cemiterio.JPG" alt="Livro 6 (suspense)">
+      </a>
+      <a href="http://127.0.0.1:5500/Saboroso.html" class="livro" data-category="suspense">
+        <img src="./Imagens/Saboroso.JPG" alt="Livro 7 (suspense)">
+      </a>
+      <a href="http://127.0.0.1:5500/Vilarejo.html" class="livro" data-category="suspense">
+        <img src="./Imagens/vilarejo.JPG" alt="Livro 8 (suspense)">
+      </a>
+      <a href="http://127.0.0.1:5500/Evelyn.html" class="livro" data-category="romance">
+        <img src="./Imagens/Evelyn.JPG" alt="Livro 9 (romance)">
+      </a>
+      <a href="http://127.0.0.1:5500/paciente.html" class="livro" data-category="suspense">
+        <img src="./Imagens/paciente.JPG" alt="Livro 10 (suspense)">
+      </a>
+      <a href="http://127.0.0.1:5500/mordida.html" class="livro" data-category="drama">
+        <img src="./Imagens/mordida.JPG" alt="Livro 11 (drama)">
+      </a>
+      <a href="http://127.0.0.1:5500/Delilah.html" class="livro" data-category="romance">
+        <img src="./Imagens/Delilah.JPG" alt="Livro 12 (romance)">
+      </a>
+      <a href="http://127.0.0.1:5500/Tomie.html" class="livro" data-category="suspense">
+        <img src="./Imagens/Tomie.JPG" alt="Livro 13 (suspense)">
+      </a>
+      <a href="http://127.0.0.1:5500/Rosemary.html" class="livro" data-category="suspense">
+        <img src="./Imagens/Rosemary.jpg" alt="Livro 14 (suspense)">
+      </a>
+    </div>
+  </div>
+  <div class="center-rectangle"></div>
+  <script src="script.js"></script>
+</body>
+</html>
+
