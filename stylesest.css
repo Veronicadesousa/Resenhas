@@ -1,4 +1,5 @@
 
+/* Base CSS */
 body {
   font-family: 'TypewriterFont', monospace;
   text-align: center;
@@ -139,6 +140,9 @@ h1 {
   z-index: 1;
 }
 
+/* Media Queries */
+
+/* Para telas de até 1200px */
 @media (max-width: 1200px) {
   #livros a {
       flex-basis: calc(100% / 4);
@@ -148,6 +152,7 @@ h1 {
   }
 }
 
+/* Para telas de até 768px */
 @media (max-width: 768px) {
   #livros a {
       flex-basis: calc(100% / 2);
@@ -166,6 +171,7 @@ h1 {
   }
 }
 
+/* Para telas de até 480px */
 @media (max-width: 480px) {
   #livros a {
       flex-basis: 100%;
@@ -190,6 +196,3 @@ h1 {
       height: 160px;
   }
 }
-
-
-
